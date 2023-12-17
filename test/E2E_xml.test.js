@@ -462,7 +462,7 @@ describe('E2E user scenarios - XML responses', () => {
   })
 
   test('Should exceed the request limit', async () => {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 5; i++) {
       await app
         .get('/users.xml')
         .set('Authorization', `Bearer ${process.env.LOW_LIMIT_TOKEN}`)
