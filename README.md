@@ -13,23 +13,39 @@ Setup:
 
 1. Clone this repository into local machine:
 
+```
 git clone https://github.com/Mackowi/gorest_tests.git
+```
 
-2. Navigate to the project directory and run
+2. Navigate to the project directory:
 
+```
+cd gorest_tests
+```
+
+and run:
+
+```
 npm install
+```
 
 Configuration:
 
 1. Create .env file in root of your project with:
 
+```
 TOKEN=your_primary_access_token
 LOW_LIMIT_TOKEN=your_low_limit_access_token
+```
 
 Replace tokens with actual access tokens created in https://gorest.co.in/my-account/access-tokens.
 
 Running tests:
 
-To run the tests, execute npm test
+To run the tests, execute:
+
+```
+npm test
+```
 
 To set up github actions CI, please add 2 action repository secrets, keeping the same names as for the local test execution.
