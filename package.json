@@ -4,7 +4,7 @@
   "description": "E2E tests for CRUD user operations",
   "main": "data.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "author": "Maciek",
   "license": "ISC",
